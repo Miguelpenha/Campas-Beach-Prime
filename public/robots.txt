@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://campasbeachprime.vercel.app/sitemap.xml
