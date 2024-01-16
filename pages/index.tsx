@@ -29,7 +29,7 @@ function Home() {
                 <LocationVideoMain>{page.components.main.video.location}</LocationVideoMain>
                 <TitleVideoMain>{page.components.main.video.title}</TitleVideoMain>
                 <SubtitleVideoMain>{page.components.main.video.subtitle}</SubtitleVideoMain>
-                <VideoMain autoPlay loop muted preload="metadata">
+                <VideoMain autoPlay loop muted preload="metadata" playsInline>
                     <source src="/videos/Video.mp4#t=0.1" type="video/mp4"/>
                 </VideoMain>
             </ContainerVideoMain>
