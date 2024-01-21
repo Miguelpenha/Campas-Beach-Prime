@@ -3,17 +3,17 @@ import page from '../../services/page'
 
 function About() {
     return (
-        <Container id='about'>
+        <Container id="about">
             {page.components.main.about.sections.map((section, index) => (
-                <Section className='section' key={index}>
-                    <Title className='title'>
+                <Section className="section" key={index}>
+                    <Title className="title">
                         <span className="normal">{section.title.normal}</span>
                         <span className="highlighted">{section.title.highlighted}</span>
                     </Title>
                     {section.description && (
-                        <Description className='description'>{section.description}</Description>
+                        <Description className="description">{section.description}</Description>
                     )}
-                    <Attributes className='list'>
+                    <Attributes className="list">
                         {section.attributes.map((attribute, index) => (
                             <Attribute key={index}>{attribute}</Attribute>
                         ))}

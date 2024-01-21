@@ -25,6 +25,7 @@ const page: IPage = {
                     lighter: ' e fale com nossa equipe de vendas.'
                 }
             },
+            fixed: 'QUERO MAIS INFORMAÇÕES',
             location: {
                 title: 'Um oásis entre a Praia de Carneiros e Tamandaré.',
                 description: 'Invista em uma das localizações que mais se valorizam no Brasil.'
@@ -115,7 +116,7 @@ const page: IPage = {
             },
             map: {
                 position: {
-                    zoom: 20,
+                    zoom: 15,
                     latitude: -8.74372,
                     longitude: -35.08869
                 }

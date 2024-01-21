@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import { Container, ContainerVideoMain, LocationVideoMain, TitleVideoMain, SubtitleVideoMain, VideoMain, Footer, ContainerLogoFooter, LogoFooter } from '../styles/pages'
 import page from '../services/page'
 import Form from '../components/Form'
+import ButtonFixed from '../components/ButtonFixed'
 import Location from '../components/Location'
 import Gallery from '../components/Gallery'
 import About from '../components/About'
@@ -34,6 +35,7 @@ function Home() {
                 </VideoMain>
             </ContainerVideoMain>
             <Form/>
+            <ButtonFixed/>
             <Location/>
             <Gallery/>
             <About/>

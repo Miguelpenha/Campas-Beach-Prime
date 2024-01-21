@@ -23,6 +23,7 @@ interface IPage {
                     lighter: string
                 }
             }
+            fixed: string
             location: {
                 title: string
                 description: string
