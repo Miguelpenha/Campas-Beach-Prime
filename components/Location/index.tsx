@@ -8,10 +8,12 @@ interface IProps {
 }
 
 const Location: FC<IProps> = ({ testAB }) => {
+    const { location } = page.components.main
+
     return (
-        <Container testAB={testAB}>
-            <Title>{page.components.main.location.title}</Title>
-            <Description>{page.components.main.location.description}</Description>
+        <Container>
+            <Title>{!testAB ? location.title : location.titleTesteAB}</Title>
+            <Description>{!testAB ? location.description : location.descriptionTesteAB}</Description>
             <Image placeholder="blur" alt={page.alts.location} src={imageLocationSource}/>
         </Container>
     )

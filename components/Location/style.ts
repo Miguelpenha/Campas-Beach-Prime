@@ -1,11 +1,7 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import ImageRaw from 'next/image'
 
-interface IContainer {
-    testAB: boolean
-}
-
-export const Container = styled.div<IContainer>`
+export const Container = styled.div`
     gap: 2em;
     width: 80%;
     display: flex;
@@ -13,10 +9,6 @@ export const Container = styled.div<IContainer>`
     align-self: center;
     align-items: center;
     margin-bottom: 1.5em;
-
-    ${props => props.testAB && css`
-        margin-top: 2em;
-    `}
 `
 
 export const Title = styled.h2`

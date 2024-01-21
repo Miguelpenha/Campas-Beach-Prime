@@ -10,6 +10,7 @@ import LogoMain from '../components/LogoMain'
 import Form from '../components/Form'
 import ButtonFixed from '../components/ButtonFixed'
 import Location from '../components/Location'
+import Information from '../components/Information'
 import Gallery from '../components/Gallery'
 import About from '../components/About'
 import Description from '../components/Description'
@@ -42,9 +43,9 @@ function Home({ isTestAB }: IProps) {
                 </VideoMain>
             </ContainerVideoMain>
             {!isTestAB && <Form/>}
-            <ButtonFixed/>
+            {isTestAB && <Information/>}
             <Location testAB={isTestAB}/>
-            {isTestAB && <Form/>}
+            <ButtonFixed/>
             <Gallery/>
             <About/>
             <Description/>

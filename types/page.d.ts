@@ -6,6 +6,7 @@ interface IPage {
     alts: {
         header: string
         location: string
+        information: string
         gallery: string[]
         features: string[]
         logo: string
@@ -26,7 +27,19 @@ interface IPage {
             fixed: string
             location: {
                 title: string
+                titleTesteAB: string
                 description: string
+                descriptionTesteAB: string
+            }
+            information: {
+                title: string
+                description: string
+                detail: string
+                button: string
+                about: {
+                    detail: string
+                    price: string
+                }
             }
             about: {
                 sections: {

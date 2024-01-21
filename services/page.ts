@@ -10,7 +10,8 @@ const page: IPage = {
         location: 'Imagem Localização',
         gallery: ['Foto 1', 'Foto 2', 'Foto 3', 'Foto 4', 'Foto 5'],
         features: ['Foto 1', 'Foto 2', 'Foto 3'],
-        logo: 'Logo Innovate'
+        logo: 'Logo Innovate',
+        information: 'Imagem Localização'
     },
     components: {
         main: {
@@ -27,8 +28,20 @@ const page: IPage = {
             },
             fixed: 'QUERO MAIS INFORMAÇÕES',
             location: {
+                titleTesteAB: 'Águas cristalinas, piscinas naturais e areia branca.',
                 title: 'Um oásis entre a Praia de Carneiros e Tamandaré.',
-                description: 'Invista em uma das localizações que mais se valorizam no Brasil.'
+                description: 'Invista em uma das localizações que mais se valorizam no Brasil.',
+                descriptionTesteAB: 'Agora imagine ter tudo isso a poucos metros de distância. Isso é o que o Campas Beach Prime oferece. Tenha exclusividade, tecnologia e natureza, a poucos minutos das praias mais bonitas do Brasil'
+            },
+            information: {
+                title: 'Um oásis entre a Praia de Carneiros e Tamandaré.',
+                description: 'Invista em uma das localizações que mais se valorizam no Brasil.',
+                detail: 'Clique no botão abaixo pra receber todos os detalhes: ',
+                button: 'QUERO MAIS INFORMAÇÕES',
+                about: {
+                    detail: '2 quartos  -  42m² a 154m²',
+                    price: 'a partir de R$ 423 MIL'
+                }
             },
             about: {
                 sections: [
