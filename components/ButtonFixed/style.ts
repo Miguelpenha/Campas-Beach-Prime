@@ -16,9 +16,10 @@ export const Container = styled.div`
 `
 
 export const Button = styled.a`
-    width: 25em;
+    width: 95%;
     padding: 1.2em;
     font-size: 1em;
+    max-width: 25em;
     font-weight: bold;
     text-align: center;
     align-self: center;
