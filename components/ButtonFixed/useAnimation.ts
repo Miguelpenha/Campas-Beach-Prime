@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
-function useAnimation() {
+function useAnimation(testAB: boolean) {
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
 
@@ -18,9 +18,9 @@ function useAnimation() {
                 duration: 1,
                 bottom: '0%',
                 scrollTrigger: {
-                    end: '180% bottom',
                     endTrigger: '#form',
-                    toggleActions: 'none play reverse none'
+                    toggleActions: 'none play reverse none',
+                    end: `${testAB ? '100%' : '180%'} bottom`
                 }
             }
         )

@@ -3,7 +3,7 @@ import ImageRaw from 'next/image'
 
 export const Container = styled.div`
     width: 90%;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     align-self: center;
     align-items: center;

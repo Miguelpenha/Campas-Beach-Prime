@@ -1,9 +1,14 @@
+import { FC } from 'react'
 import useAnimation from './useAnimation'
 import { Container, Button } from './style'
 import page from '../../services/page'
 
-function ButtonFixed() {
-    useAnimation()
+interface IProps {
+    testAB: boolean
+}
+
+const ButtonFixed: FC<IProps> = ({ testAB }) => {
+    useAnimation(testAB)
 
     return (
         <Container id="button-fixed">

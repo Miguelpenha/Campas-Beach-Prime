@@ -84,6 +84,10 @@ export const Footer = styled.footer`
 
 export const ContainerLogoFooter = styled.a`
     align-self: center;
+
+    @media screen and (max-width: 900px) {
+        padding-bottom: 3em;
+    }
 `
 
 export const LogoFooter = styled(Image)`
