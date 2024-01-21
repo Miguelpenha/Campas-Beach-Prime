@@ -34,9 +34,11 @@ function Home({ isTestAB }: IProps) {
         {!isTestAB && <Header/>}
         <Container>
             <ContainerVideoMain>
-                <LocationVideoMain>{page.components.main.video.location}</LocationVideoMain>
-                <TitleVideoMain>{page.components.main.video.title}</TitleVideoMain>
-                <SubtitleVideoMain>{page.components.main.video.subtitle}</SubtitleVideoMain>
+                {!isTestAB && <>
+                    <LocationVideoMain>{page.components.main.video.location}</LocationVideoMain>
+                    <TitleVideoMain>{page.components.main.video.title}</TitleVideoMain>
+                    <SubtitleVideoMain>{page.components.main.video.subtitle}</SubtitleVideoMain>
+                </>}
                 {isTestAB && <LogoMain/>}
                 <VideoMain autoPlay loop muted playsInline poster="/img/Thumbnail.png">
                     <source src="/videos/Video.mp4" type="video/mp4"/>
