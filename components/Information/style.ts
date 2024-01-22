@@ -31,7 +31,7 @@ export const Detail = styled.span`
     color: ${props => props.theme.tertiaryColor};
 `
 
-export const Button = styled.button`
+export const Button = styled.a`
     width: 110%;
     border: none;
     padding: 1em;
@@ -44,6 +44,7 @@ export const Button = styled.button`
     align-self: center;
     border-radius: 20px;
     align-items: center;
+    text-decoration: none;
     transform: scale(0.9);
     transition-duration: 0.2s;
     transition-timing-function: linear;

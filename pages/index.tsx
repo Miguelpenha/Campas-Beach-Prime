@@ -47,6 +47,7 @@ function Home({ isTestAB }: IProps) {
             {!isTestAB && <Form/>}
             {isTestAB && <Information/>}
             <Location testAB={isTestAB}/>
+            {isTestAB && <Form/>}
             <ButtonFixed/>
             <Gallery/>
             <About/>

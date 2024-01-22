@@ -9,7 +9,7 @@ function Information() {
             <Title>{title}</Title>
             <Description>{description}</Description>
             <Detail>{detail}</Detail>
-            <Button>{button}</Button>
+            <Button href="#form">{button}</Button>
             <About>
                 <AboutDetail>{about.detail}</AboutDetail>
                 <AboutPrice>{about.price}</AboutPrice>

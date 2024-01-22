@@ -18,7 +18,7 @@ function useAnimation() {
                 duration: 1,
                 bottom: '0%',
                 scrollTrigger: {
-                    end: '180% bottom',
+                    end: '178% bottom',
                     endTrigger: '#form',
                     toggleActions: 'none play reverse none'
                 }
