@@ -41,6 +41,7 @@ export const Button = styled.a`
     font-weight: bold;
     font-size: 1.25em;
     margin-bottom: 1em;
+    text-align: center;
     align-self: center;
     border-radius: 20px;
     align-items: center;
