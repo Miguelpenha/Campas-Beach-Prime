@@ -7,6 +7,7 @@ function Head() {
         <HeadRaw>
             <title>{page.meta.title}</title>
             <meta name="language" content="pt-BR"/>
+            <link rel="canonical" href={process.env.NEXT_PUBLIC_DOMAIN}/>
             <meta property="og:title" content={page.meta.title}/>
             <meta property="og:description" content={page.meta.description}/>
             <meta property="og:image" content={`${process.env.NEXT_PUBLIC_DOMAIN}/img/thumbnail.png`}/>
