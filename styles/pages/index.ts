@@ -6,7 +6,7 @@ export const Container = styled.main`
     background-color: ${props => props.theme.secondaryColor};
 `
 
-export const ContainerVideoMain = styled.div`
+export const ContainerMain = styled.div`
     height: 35em;
     display: flex;
     position: relative;
@@ -16,7 +16,7 @@ export const ContainerVideoMain = styled.div`
     }
 `
 
-export const LocationVideoMain = styled.h3`
+export const LocationMain = styled.h3`
     z-index: 1;
     width: 80%;
     margin: 0 auto;
@@ -31,7 +31,7 @@ export const LocationVideoMain = styled.h3`
     }
 `
 
-export const TitleVideoMain = styled.h1`
+export const TitleMain = styled.h1`
     z-index: 1;
     width: 95%;
     margin: 0 auto;
@@ -46,7 +46,7 @@ export const TitleVideoMain = styled.h1`
     }
 `
 
-export const SubtitleVideoMain = styled.h1`
+export const SubtitleMain = styled.h1`
     z-index: 1;
     width: 59%;
     margin: 0 auto;
@@ -69,6 +69,18 @@ export const VideoMain = styled.video`
     object-fit: cover;
     position: absolute;
     object-position: center;
+    filter: brightness(0.7);
+
+    @media screen and (max-width: 900px) {
+        height: 25em;
+    }
+`
+
+export const PhotoMain = styled(Image)`
+    width: 100%;
+    height: 35em;
+    object-fit: cover;
+    position: absolute;
     filter: brightness(0.7);
 
     @media screen and (max-width: 900px) {

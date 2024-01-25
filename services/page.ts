@@ -8,6 +8,7 @@ const page: IPage = {
         description: 'Exclusividade, tecnologia e natureza em total sinergia com o seu estilo de vida.'
     },
     alts: {
+        main: 'Foto Campas Beach Prime',
         header: 'Logos Empresas',
         location: 'Imagem Localização',
         gallery: ['Foto 1', 'Foto 2', 'Foto 3', 'Foto 4', 'Foto 5'],

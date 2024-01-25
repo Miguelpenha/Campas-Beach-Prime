@@ -6,6 +6,7 @@ interface IPage {
         description: string
     }
     alts: {
+        main: string
         header: string
         location: string
         information: string
