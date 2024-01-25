@@ -2,6 +2,7 @@ import { IPage } from '../types'
 
 const page: IPage = {
     meta: {
+        type: 'website',
         name: 'Campas Beach Prime',
         title: 'Viva o extraordinário, viva Campas Beach Prime.',
         description: 'Exclusividade, tecnologia e natureza em total sinergia com o seu estilo de vida.'
