@@ -1,5 +1,6 @@
 interface IPage {
     meta: {
+        name: string
         title: string
         description: string
     }
