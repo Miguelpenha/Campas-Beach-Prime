@@ -47,7 +47,7 @@ function Home({ version }: IProps) {
                         <source src="/videos/Video.mp4" type="video/mp4"/>
                     </VideoMain>
                 ) : (
-                    <PhotoMain placeholder="blur" priority alt={page.alts.main} src={PhotoMainSource}/>
+                    <PhotoMain priority alt={page.alts.main} src={PhotoMainSource}/>
                 )}
             </ContainerMain>
             {version != 'design' && <Form/>}
