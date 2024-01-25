@@ -43,7 +43,7 @@ function Home({ version }: IProps) {
                 </>}
                 {version == 'design' && <LogoMain/>}
                 {version != 'performance' ? (
-                    <VideoMain autoPlay loop muted playsInline poster="/img/Thumbnail.png">
+                    <VideoMain autoPlay loop muted playsInline poster="/img/thumbnail.png">
                         <source src="/videos/Video.mp4" type="video/mp4"/>
                     </VideoMain>
                 ) : (
